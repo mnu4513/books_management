@@ -1,0 +1,31 @@
+{
+    "name": "book_management",
+    "version": "1.0.0",
+    "main": "src/index.js",
+    "scripts": {
+      "start": "nodemon src/index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/mnu4513/project4.git"
+    },
+    "engines": {
+      "npm": ">=8.0.0 <9.0.0",
+      "node": ">=16.0.0 <17.0.0"
+    },
+    "author": "Shyam, Aniket, Nishant, Jay",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/mnu4513/project4/issues"
+    },
+    "homepage": "https://github.com/mnu4513/project4#readme",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.18.2",
+      "jsonwebtoken": "^9.0.0",
+      "mongoose": "^6.8.4",
+      "nodemon": "^2.0.20",
+      "password-validator": "^5.3.0"
+    }
+  }
